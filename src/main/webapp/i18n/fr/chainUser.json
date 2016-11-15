@@ -1,0 +1,23 @@
+{
+    "pazachaingatewayApp": {
+        "chainUser" : {
+            "home": {
+                "title": "ChainUsers",
+                "createLabel": "Créer un nouveau Chain User",
+                "createOrEditLabel": "Créer ou éditer un Chain User",
+                "search": "Recherche pour Chain User"
+            },
+            "created": "Un nouveau Chain User a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Chain User avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Chain User avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Chain User {{ id }} ?"
+            },
+            "detail": {
+                "title": "Chain User"
+            },
+            "uAaUserId": "U Aa User Id",
+            "eCert": "E Cert"
+        }
+    }
+}

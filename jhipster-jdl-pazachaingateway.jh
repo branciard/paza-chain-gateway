@@ -1,0 +1,21 @@
+
+
+
+/**
+ * The ChainUser entity.
+ */
+entity ChainUser {
+
+	UAAUserId Long,
+	eCert String,
+}
+
+
+// Set pagination options
+paginate ChainUser with infinite-scroll
+
+dto * with mapstruct
+
+service ChainUser with serviceClass 
+// Set an angular suffix
+angularSuffix * with pazaChain
