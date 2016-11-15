@@ -1,0 +1,12 @@
+version: '2'
+services:
+    pazachaingateway-postgresql:
+        container_name: pazachaingateway-postgresql
+        image: postgres:9.5.4
+        # volumes:
+        #     - ~/volumes/jhipster/pazachaingateway/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=pazachaingateway
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
