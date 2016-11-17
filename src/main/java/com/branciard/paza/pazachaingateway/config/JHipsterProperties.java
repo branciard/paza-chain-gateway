@@ -189,11 +189,17 @@ public class JHipsterProperties {
 
     public static class Security {
 
+        private final LoadBalancedResourceDetails clientAuthorization = new LoadBalancedResourceDetails();
         private final Authentication authentication = new Authentication();
 
         public Authentication getAuthentication() {
             return authentication;
         }
+
+        public LoadBalancedResourceDetails getClientAuthorization() {
+            return clientAuthorization;
+        }
+
         public static class Authentication {
 
             private final Jwt jwt = new Jwt();

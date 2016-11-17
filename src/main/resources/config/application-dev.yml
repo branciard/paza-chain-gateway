@@ -89,6 +89,12 @@ jhipster:
             enabled: false
         authorized-microservices-endpoints: # Access Control Policy, if left empty for a route, all endpoints will be accessible
             app1: /api,/v2/api-docs # recommended dev configuration
+    security:
+        client-authorization:
+            accessTokenUri: http://pazauaa/oauth/token
+            tokenServiceId: pazauaa
+            clientId: internal
+            clientSecret: internal
     cache: # Hibernate 2nd level cache, used by CacheConfiguration
         hazelcast:
             timeToLiveSeconds: 3600

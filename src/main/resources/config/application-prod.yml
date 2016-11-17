@@ -83,6 +83,12 @@ jhipster:
             enabled: false
         authorized-microservices-endpoints: # Access Control Policy, if left empty for a route, all endpoints will be accessible
             app1: /api # recommended prod configuration
+    security:
+        client-authorization:
+            accessTokenUri: http://pazauaa/oauth/token
+            tokenServiceId: pazauaa
+            clientId: internal
+            clientSecret: internal
     http:
         cache: # Used by the CachingHttpHeadersFilter
             timeToLiveInDays: 1461

@@ -1,5 +1,6 @@
 package com.branciard.paza.pazachaingateway;
 
+import com.branciard.paza.pazachaingateway.client.OAuth2InterceptedFeignConfiguration;
 import com.branciard.paza.pazachaingateway.config.Constants;
 import com.branciard.paza.pazachaingateway.config.DefaultProfileUtil;
 import com.branciard.paza.pazachaingateway.config.JHipsterProperties;
